@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Feedback</title>
+    <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet'>
+<style>
+    body{
+     background-color:navajowhite;
+	}
+    h1{
+     font-size:1.75rem;
+     font-family:electrolize;
+	}
+    .container{
+        width:50vw;
+        
+        background-color:pink;
+       
+        border-radius:10px;
+        box-sizing:border-box;
+     }
+
+     .center{
+      text-align:center;
+      margin-top:10%;
+      font-family:Allura;
+      font-size:2rem;
+	 }
+
+     form{
+      display:flex;
+      flex-direction:column;
+      justify-content:space-evenly;
+      align-items:center;
+	 }
+      
+     input[type=text] {
+        width:80%;
+        padding: 12px 20px;
+        margin-top:3%;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+ 
+
+    input[type=email] {
+        width:80%;
+        padding: 12px 20px;
+        
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type=submit] {
+          width: 80%;
+          background-color: hsl(154, 59%, 51%);
+          color: white;
+          padding: 14px 20px;
+          margin-bottom:3%;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+     }
+
+     textarea {
+        width:80%;
+        padding: 12px 20px;
+        
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+	 }
+</style>
+</head>
+<body>
+<h1>Leave us your Feedback</h2>
+<div class="container">
+         <form action="/action_page.php">
+        
+            <input type="text" name="Your name" placeholder="Yourname">
+        <br>
+        
+           
+   
+       
+            <input type="email" name="" placeholder="Email">
+        <br>
+        
+            <textarea name="message" style="height:40%; width:80%;" placeholder="Write to us"></textarea>
+            
+        <br>
+            <input type="submit" value="SUBMIT">
+
+        </form> 
+</div>
+        <div class="center"><h2>Thank you!! visit Again!!</h2></div>
+</body>
+</html>
